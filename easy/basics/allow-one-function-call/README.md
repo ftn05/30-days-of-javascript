@@ -1,0 +1,35 @@
+# Allow One Function Call
+
+🔗 [Problem Link](https://leetcode.com/problems/allow-one-function-call/)
+📊 Difficulty: easy
+📂 Category: Basics
+
+## 📝 Description
+Given a function fn, return a new function that is identical to the original function except that it ensures&nbsp;fn&nbsp;is&nbsp;called at most once.
+
+
+	The first time the returned function is called, it should return the same result as&nbsp;fn.
+	Every subsequent time it is called, it should return&nbsp;undefined.
+
+
+&nbsp;
+Example 1:
+
+
+Input: fn = (a,b,c) =&gt; (a + b + c), calls = [[1,2,3],[2,3,6]]
+Output: [{&quot;calls&quot;:1,&quot;value&quot;:6}]
+Explanation:
+const onceFn = once(fn);
+onceFn(1, 2, 3); // 6
+onceFn(2, 3, 6); // undefined, fn was not called
+
+
+Example 2:
+
+
+Input: fn = (a,b,c) =&gt; (a * b * c), calls = [[5,7,4],[2,3,6],[4,6,8]]
+Output: [{&quot;calls&quot;:1,&quot;value&quot;:140}]
+Explanation:
+const onceFn = once(fn);
+onceFn(5, 7, 4); // 140
+onceFn(2, 3, 6); // undefined, ...
