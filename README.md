@@ -18,6 +18,7 @@
 | 14 | Timeout Cancellation | easy | JavaScript | General | [Link](https://leetcode.com/problems/timeout-cancellation/) | 14-04-26 |
 | 15 | Interval Cancellation | easy | JavaScript | General | [Link](https://leetcode.com/problems/interval-cancellation/) | 15-04-26 |
 | 16 | Promise Time Limit | medium | JavaScript | Promise | [Link](https://leetcode.com/problems/promise-time-limit/) | 16-04-26 |
-| 17 | Cache With Time Limit | medium | JavaScript | General | [Link](https://leetcode.com/problems/cache-with-time-limit/) | 18-04-26 |
+| 17 | Cache With Time Limit | medium | JavaScript | General | [Link](https://leetcode.com/problems/cache-with-time-limit/) | 17-04-26 |
 | 18 | Execute Asynchronous Functions in ... | medium | JavaScript | Basics | [Link](https://leetcode.com/problems/execute-asynchronous-functions-in-parallel/) | 18-04-26 |
 | 19 | Is Object Empty | easy | JavaScript | General | [Link](https://leetcode.com/problems/is-object-empty/) | 19-04-26 |
+| 20 | Chunk Array | easy | JavaScript | General | [Link](https://leetcode.com/problems/chunk-array/) | 20-04-26 |
